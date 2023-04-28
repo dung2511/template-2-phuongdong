@@ -1432,6 +1432,14 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1851,6 +1859,14 @@ video {
     margin-top: 8rem;
   }
 
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2192,6 +2208,14 @@ video {
     margin-bottom: 1.5rem;
   }
 
+  .xl\:mt-44 {
+    margin-top: 11rem;
+  }
+
+  .xl\:mb-44 {
+    margin-bottom: 11rem;
+  }
+
   .xl\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -2257,6 +2281,10 @@ video {
 
   .xl\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .xl\:pt-20 {
+    padding-top: 5rem;
   }
 
   .xl\:text-sm {
