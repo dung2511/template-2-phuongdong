@@ -23,7 +23,7 @@
     <header class="header font-['Roboto','sans-serif'] max-w-[1920px] mx-auto">
         <div
             class="flex justify-between items-center lg:gap-3 mx-auto h-fit px-2.5 py-2.5 xl:px-5 xl:py-5 2xl:px-32 2xl:py-5 4xl:px-64">
-            <div id="hamburger" class="hampurger lg:hidden text-3xl cursor-pointer">
+            <div id="hamburger" class="hamburger lg:hidden text-3xl cursor-pointer">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <div class="logo lg:w-1/6 xl:w-fit "><a class="w-full block" href="#"><img src="../images/logo.png"
@@ -101,6 +101,7 @@
         <div>
             <img class="w-full" src="../images/banner.png" alt="">
         </div>
+        <div id="close-menu" class="bg-[#4444444a] lg:bg-inherit fixed hidden top-0 left-0 right-0 bottom-0 z-30"></div>
     </header>
     <main class=" 4xl:mt-[88px] 3xl:mt-[66px] mt-10 max-w-[1920px] mx-auto">
         <section class="mx-auto 4xl:pl-64 px-2.5 md:flex  xl:pl-5 md:pr-0 4xl:gap-8 gap-4 pl-2.5 2xl:pl-32">
@@ -201,7 +202,7 @@
             </div>
         </section>
         <section
-            class="mt-10 mb-10 md:mt-20 md:mb-20  xl:mt-44 xl:mb-44 flex justify-between gap-6 flex-wrap md:flex-nowrap flex-col-reverse md:flex-row px-2.5 xl:px-5 2xl:px-32 4xl:px-64">
+            class="mt-10 mb-10 md:mt-20 md:mb-20  xl:mt-44 xl:mb-44 flex justify-between gap-4 xl:gap-6 flex-wrap md:flex-nowrap flex-col-reverse md:flex-row px-2.5 xl:px-5 2xl:px-32 4xl:px-64">
             <img class="w-full md:w-[48.8%]" src="../images/img-service.png" alt="">
             <div class="w-full md:w-[50%]">
                 <h2 class="text-3xl text-[#252525] lg:text-4xl font-medium mb-4">
@@ -214,7 +215,7 @@
                     nhẹ nhàng, an tâm cho người mẹ trong suốt thai kỳ, ngày vượt cạn đến sau sinh và sự chăm sóc toàn
                     diện với em bé ngay từ giây phút đầu tiên chào đời.</p>
                 <ul
-                    class=" [&>*:nth-child(even)]:ml-2 lg:[&>*:nth-child(even)]:ml-6 [&>*:nth-child(n+1)]:mb-2 [&>*:nth-child(n+1)]:font-medium [&>*:nth-child(n+1)]:text-sm lg:[&>*:nth-child(n+1)]:text-base [&>*:nth-child(n+1)]:text-[#252525]">
+                    class="mt-4 md:[&>*:nth-child(even)]:ml-2 lg:[&>*:nth-child(even)]:ml-6 [&>*:nth-child(n+1)]:mb-2 [&>*:nth-child(n+1)]:font-medium [&>*:nth-child(n+1)]:text-sm lg:[&>*:nth-child(n+1)]:text-base [&>*:nth-child(n+1)]:text-[#252525]">
                     <li class="flex items-center gap-2">
                         <div
                             class="rounded-full w-3 h-3 bg-gradient-to-r from-[#73D090] from-0% via-[#C4EACE] via-[0.01%] to-[#53CAFB] to-100%">
@@ -377,11 +378,11 @@
             </div>
 
         </section>
-        <section
-            class="relative h-[300px] sm:h-[500px] flex px-2.5 justify-center xl:justify-end 4xl:px-64 2xl:px-32  items-center mt-8 2xl:mt-10 3xl:mt-16 4xl:mt-20">
-            <img class="absolute top-0 left-0 -z-10" src="../images/5387.png" alt="">
+        <!-- <section
+            class="relative h-[300px] sm:h-[500px] flex mx-2.5 justify-center xl:justify-end 4xl:mx-64 2xl:mx-32  items-center mt-8 2xl:mt-10 3xl:mt-16 4xl:mt-20">
+            <img class="absolute top-0 xl:left-0 -z-10" src="../images/5387.png" alt="">
             <div
-                class="xl:w-1/2 w-full sm:w-3/4 rounded-[40px_40px_40px_0] shadow-[6px_8px_40px_rgba(0,0,0,0.05)] p-4 lg:p-6 xl:p-8 3xl:p-10 4xl:p-14 bg-white">
+                class="xl:w-1/2 w-full rounded-[40px_40px_40px_0] shadow-[6px_8px_40px_rgba(0,0,0,0.05)] p-4 lg:p-6 xl:p-8 3xl:p-10 4xl:p-14 bg-white">
                 <h3 class="font-medium text-xl sm:text-4xl text-[#252525] mb-2 sm:mb-4">Bệnh viên Phương Đông tiên phong
                     trong dịch vụ thai sản trọn gói</h3>
                 <p class="sm:text-base text-sm text-[#000000A3] sm:mb-10 mb-5">Lorem ipsum dolor sit amet, consectetur
@@ -389,11 +390,11 @@
                     elit. Suspendisse tale tincidunt tortor lobortis
                     pretium nulla quis sem nullam rhoncus. Ornare et dui sit massa. Volutpat porta leo pulvinar
                     adipiscing gestas metus </p>
-                <div class="flex justify-center md:justify-start "> <a href="#"
+                <div class="flex justify-center xl:justify-start "> <a href="#"
                         class="rounded-[100px] font-semibold text-white bg-gradient-to-tr from-[#FFB469] from-0% to-[#E57709] to-100% py-[13px] px-8">Đăng
                         ký tư vấn</a></div>
             </div>
-        </section>
+        </section> -->
         <section class="4xl:mt-60 3xl:mt-40 md:mt-32 mt-14">
             <div class="flex justify-between 4xl:px-64 2xl:px-32 px-2.5">
                 <h1 class="text-2xl xl:text-4xl font-medium text-[#252525]">
@@ -561,7 +562,8 @@
                     odio dolor lorem aenean quis. Ridiculus mattis.</p>
                 <div class="mt-10 flex justify-center  md:justify-start"><a
                         class="rounded-[100px] flex gap-2 items-center font-semibold text-white shadow-[0_7px_20px_rgba(213,166,0,0.19)] bg-gradient-to-r from-[#FFB469] from-0% to-[#E57709] to-100% px-6 py-2 md:px-8 md:py-[13px]"
-                        href="tel:19001806"><img src="../images/phonecall.png" alt=""> <span>Liên hệ ngay</span></a></div>
+                        href="tel:19001806"><img src="../images/phonecall.png" alt=""> <span>Liên hệ ngay</span></a>
+                </div>
             </div>
         </section>
         <section
@@ -660,25 +662,28 @@
                 </h2>
                 <p class="mb-3">Địa chỉ: <span class="font-semibold">Số 9, Phố Viên, Cổ Nhuế 2, Bắc Từ Liêm, Hà
                         Nội</span></p>
-                <p class="mb-3">Email: <span class="font-semibold">bvphuongdong@phuongdonghospital.vn</span></p>
-                <p class="font-semibold">info.benhvienphuongdong@gmail.com</p>
-                <p class="mb-3">Tổng đài tư vấn: <span class="font-semibold">19001806</span></p>
+                <p class="mb-3"><a href="mailto:bvphuongdong@phuongdonghospital.vn">Email: <span
+                            class="font-semibold">bvphuongdong@phuongdonghospital.vn</span></a></p>
+                <p class="font-semibold"><a
+                        href="mailto:info.benhvienphuongdong@gmail.com">info.benhvienphuongdong@gmail.com</a></p>
+                <p class="mb-3"><a href="tel:19001806">Tổng đài tư vấn: <span class="font-semibold">19001806</span></a>
+                </p>
             </div>
             <div class="sm:w-[48%] xl:w-1/4">
                 <h2 class="font-medium text-2xl mb-6">
                     Giờ làm việc
                 </h2>
                 <p class="mb-3">Từ 7:00 - 19:00 từ Thứ 2 đến CN</p>
-                <p class="mb-3">Cấp cứu 24/7: 0833 015 115</p>
+                <p class="mb-3"><a href="tel:0833015115">Cấp cứu 24/7: 0833 015 115</a></p>
                 <p class="mb-3"> <a href="tel:0911615115">Hotline Tiêm chủng: 0911 615 115</a></p>
                 <p class="mb-3"><a href="tel:19001806">Hotline Hỗ trợ khách hàng: 1900 1806</a></p>
             </div>
             <div class="sm:w-[48%] xl:w-1/5">
                 <h2 class="text-2xl font-medium mb-6">Theo dõi chúng tôi </h2>
                 <div class="flex gap-6 mb-6">
-                    <img src="../images/fb.png" alt="">
-                    <img src="../images/yt.png" alt="">
-                    <img src="../images/tt.png" alt="">
+                    <a href=""> <img src="../images/fb.png" alt=""> </a>
+                    <a href=""><img src="../images/yt.png" alt=""></a>
+                    <a href=""> <img src="../images/tt.png" alt=""></a>
                 </div>
                 <img src="../images/thongbao.png" alt="">
             </div>
